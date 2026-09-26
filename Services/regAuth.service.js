@@ -1,4 +1,4 @@
-import db from '../db/db.js';
+
 //For phone number regex we aint sure which format ;+254 or 254 or 07 or 01 but we will check ;this might be a source of errror
 export default function regAuth(data){
     const {nationalID,firstName,lastName,email,phoneNo,DateOfBirth} = data;
