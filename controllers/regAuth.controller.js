@@ -1,5 +1,5 @@
 
-import sql from '../db/db.js';
+import {sql} from '../db/db.js';
 import regAuth from '../Services/regAuth.service.js';
 
 export async function registerUser(req, res) {
